@@ -197,9 +197,9 @@ print(Int.max)
 
 let Moon: distanceInMetrs = 384_400_000
 let Mars: distanceInMetrs = 200_000_000_000
-let Upiter: distanceInMetrs = 588_000_000_000
+let Jupiter: distanceInMetrs = 588_000_000_000
 let s : Double = 299792458
 
 print("Distance from Earth to Moon is \(Moon / 1000)km, \nlatency of transmissions time between them is \(Moon / s) seconds\n")
-print("Distance from Earth to Moon is \(Mars / 1000)km, \nlatency of transmissions time between them is \(Mars / s / 60) minutes\n")
-print("Distance from Earth to Moon is \(Upiter / 1000)km, \nlatency of transmissions time between them is \(Upiter / s / 60) minutes\n")
+print("Distance from Earth to Mars is \(Mars / 1000)km, \nlatency of transmissions time between them is \(Mars / s / 60) minutes\n")
+print("Distance from Earth to Jupiter is \(Jupiter / 1000)km, \nlatency of transmissions time between them is \(Jupiter / s / 60) minutes\n")
